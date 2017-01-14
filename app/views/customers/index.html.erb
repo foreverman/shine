@@ -3,7 +3,7 @@
     <h1 class="h2">Customer Search</h1>
   </header>
 
-  <section>
+  <section class="search-form">
     <form>
       <div class="input-group input-group-lg">
         <label for="keywords" class="sr-only">Keywords</label>
@@ -17,7 +17,7 @@
     </form>
   </section>
 
-  <section>
+  <section class="search-results" ng-if="customers.length > 0">
     <header>
       <h1 class="h3">Results</h1>
     </header>
